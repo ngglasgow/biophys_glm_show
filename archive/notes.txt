@@ -1,0 +1,30 @@
+- data
+    - beta_slopes
+        - contains the data for summed slopes for each basis function between changing conductance levels
+        - also contains the actual lambda values used
+        - and the optimal lambda value
+        - with corresponding log likelihood values
+    - glm_basis
+        - the 
+    - reconstructed_stimulus
+        - data types
+            *model.mat:
+            *reconstructed_stim.csv: contains the 1 reconstructed stimulus from all of the stimuli
+            *stims.csv: contains the 33 stimuli used, they are all the same for each channel as far as I can tell
+
+        - TODO
+            -check coherence between
+                1. reconstructed_stim and each stimulus, then take mean
+                2. reconsturcted_stim vs. mean of stimuli
+
+            -rework code to test this, I think I already did this
+            working on reconstruction_analysis, and testing the coherences
+
+TODO
+    -matlab_conversion.py
+        -this file is working on making the labmda[0, max] of the slopes
+        -need to combine this with GLM filters of before and lambda=*
+        -renamed file to kA_slopes.py
+            -there will be a file for each channel, I suppose
+            -would be better to have one file, and then an argument that selects the channel and prints result
+            

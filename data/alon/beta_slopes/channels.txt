@@ -1,0 +1,2 @@
+filenames,iA,iH,bk,sk,cah,car,kslow
+proper,K_A,I_H,K_{BK},K_{SK},Ca_{HVA},Ca_{MVA},K_{DR}

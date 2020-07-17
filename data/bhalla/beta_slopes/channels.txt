@@ -1,0 +1,2 @@
+filenames,kA,kca3,lcafixed,nafast,kfasttab,kslowtab
+proper,K_A,K_{Ca},Ca_L,Na,K_{DRf},K_{DRs}
